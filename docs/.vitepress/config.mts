@@ -4,10 +4,10 @@ export default defineConfig({
   lang: 'ko-KR',
   title: "Eunsu's Blog",
   description: "공부한 내용을 정리하는 블로그",
-  base: '/',
+  appearance: true,
   
   themeConfig: {
-    logo: '',
+    logo: '/logo.svg',
     nav: [
       { text: '홈', link: '/' },
       { text: '가이드', link: '/guide/' }
@@ -25,6 +25,10 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Eunsujang1' }
-    ]
+    ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2025-present Eunsu'
+    }
   }
 })
