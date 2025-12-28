@@ -16,7 +16,7 @@ docs/
 
 ## 네비게이션 설정
 
-[config.mts](config.mts) 파일에서 네비게이션 메뉴를 설정할 수 있습니다:
+VitePress 설정 파일에서 네비게이션 메뉴를 설정할 수 있습니다:
 
 ```javascript
 nav: [
